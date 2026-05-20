@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        DOCKER_IMAGE = "aadilmhusain/cyberbullying-app"
+        DOCKER_IMAGE = "hymajayaram067/cyberbullying-app"
     }
 
     stages {
@@ -21,7 +21,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/AadilMdhusain/SPE-Project-MLOPs.git'
+                git branch: 'main', url: 'https://github.com/HymaJayaram-067/MLOps-Cyberbullying-Detection.git'
             }
         }
 

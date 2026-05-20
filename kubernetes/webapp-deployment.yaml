@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: webapp-container
-        image: aadilmhusain/cyberbullying-app  
+        image: hymajayaram067/cyberbullying-app
         ports:
         - containerPort: 8501
         volumeMounts:

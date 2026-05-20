@@ -17,7 +17,7 @@
         enabled: yes
 
     - name: Pull the latest Docker image for webapp
-      command: docker pull aadilmhusain/cyberbullying-app:latest
+      command: docker pull hymajayaram067/cyberbullying-app:latest
 
     - name: Remove existing webapp container (if running)
       command: docker rm -f webapp_container
@@ -27,4 +27,4 @@
       command: >
         docker run -dit --name webapp_container
         -p 8501:8501
-        aadilmhusain/cyberbullying-app:latest
+        hymajayaram067/cyberbullying-app:latest
